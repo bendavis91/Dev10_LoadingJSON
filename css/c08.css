@@ -39,7 +39,7 @@ h2 {
 h3 {
   margin: 0;
   font-size: 1.4em;
-  color: #3fbb8a; 
+  color: #020303; 
   font-family: oswald, arial, sans-serif;}
 
 nav {
@@ -64,6 +64,8 @@ a {text-decoration: none; color: #000;}
 
 .event p {border-right: 1px solid #999; }
 #content .event:last-child p {border-right: none;}
+
+#contentTwo .event:last-child p {border-right:none;} /*added a second content section*/
 
 .third p {
   padding: 0 20px 0 20px;
